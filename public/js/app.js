@@ -1,4 +1,4 @@
-
+console.log('hi');
 
 const WForm = document.querySelector('form')
 const searchE = document.querySelector('input')
