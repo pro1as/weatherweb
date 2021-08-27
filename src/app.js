@@ -80,13 +80,13 @@ app.get('/weather', (req, res) => {
 app.get('/help/*', (req, res) => {
     res.render('error', {
         msg: 'help not found',
-        name: 'Andrew Mead'
+        name: 'Abs'
     })
 })
 app.get('*', (req, res) => {
     res.render('error', {
         msg: 'not found 404',
-        name: 'Andrew Mead'
+        name: 'Abs'
     })
 })
 
